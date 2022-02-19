@@ -47379,7 +47379,9 @@
 	<item fromid="30446" toid="30447" article="a" name="veined stone"/>
 	<item fromid="30448" toid="30449" article="a" name="ruddy obelisk"/>
 	<item fromid="30450" toid="30451" article="a" name="pile of ruddy ashlars"/>
-	<item fromid="30452" toid="30453" article="an" name="ancient sepulchre"/>
+	<item fromid="30452" toid="30453" article="an" name="ancient sepulchre">
+		<attribute key="floorchange" value="down"/>
+	</item>
 	<item fromid="30454" toid="30469" article="a" name="sphinx statue"/>
 	<item id="30613" article="a" name="cobra statue"/>
 	<item fromid="30614" toid="30615" article="a" name="unknown item"/>
