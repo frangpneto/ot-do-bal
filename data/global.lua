@@ -84,7 +84,8 @@ startupGlobalStorages = {
 	GlobalStorage.FerumbrasAscendant.Elements.First,
 	GlobalStorage.FerumbrasAscendant.Elements.Second,
 	GlobalStorage.FerumbrasAscendant.Elements.Third,
-	GlobalStorage.FerumbrasAscendant.Elements.Done
+	GlobalStorage.FerumbrasAscendant.Elements.Done,
+	GlobalStorage.FerumbrasAscendant.FlowerPuzzleTimer
 }
 
 do -- Event Schedule rates

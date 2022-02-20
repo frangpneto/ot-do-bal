@@ -10,11 +10,14 @@ local questTable = {
 	{storage = Storage.BigfootBurden.QuestLine, storageValue = 16},
 	{storage = Storage.BigfootBurden.QuestLine, storageValue = 20},
 	{storage = Storage.BigfootBurden.QuestLine, storageValue = 23},
+	{storage = Storage.BigfootBurden.QuestLine, storageValue = 30},
+	{storage = Storage.BigfootBurden.WarzoneStatus, storageValue = 1},
 	{storage = Storage.BigfootBurden.QuestLineComplete, storageValue = 2},
 	{storage = Storage.BigfootBurden.Rank, storageValue = 1440},
 	{storage = Storage.BigfootBurden.Warzone1Access, storageValue = 2},
 	{storage = Storage.BigfootBurden.Warzone2Access, storageValue = 2},
 	{storage = Storage.BigfootBurden.Warzone3Access, storageValue = 2},
+	{storage = Storage.BigfootBurden.Test, storageValue = 21},
 	{storage = Storage.SeaOfLight.Questline, storageValue = 11},
 	{storage = Storage.SeaOfLight.Mission1, storageValue = 4},
 	{storage = Storage.SeaOfLight.Mission2, storageValue = 3},
@@ -34,6 +37,25 @@ local questTable = {
 	{storage = Storage.DangerousDepths.Gnomes.Status, storageValue = 10},
 	{storage = Storage.FerumbrasAscension.Access, storageValue = 1},
 	{storage = Storage.FerumbrasAscension.HabitatsAccess, storageValue = 1},
+	{storage = Storage.FerumbrasAscension.BasinCounter, storageValue = 3},
+	{storage = Storage.FerumbrasAscension.MonsterDoor, storageValue = 1},
+	{storage = Storage.FerumbrasAscension.TarbazNotes, storageValue = 2},
+	{storage = Storage.FerumbrasAscension.Reward, storageValue = 1},
+	{storage = Storage.FerumbrasAscension.BoneFluteWall, storageValue = 1},
+	{storage = Storage.FerumbrasAscension.Bone, storageValue = 1},
+	{storage = Storage.FerumbrasAscension.Ring2, storageValue = 1},
+	{storage = Storage.FerumbrasAscension.Vampire, storageValue = 1},
+	{storage = Storage.FerumbrasAscension.Flower, storageValue = 1},
+	{storage = Storage.FerumbrasAscension.Fount, storageValue = 4},
+	{storage = Storage.FerumbrasAscension.BoneFlute, storageValue = 1},
+	{storage = Storage.FerumbrasAscension.RiftRunner, storageValue = 1},
+	{storage = Storage.FerumbrasAscension.HabitatsAccess, storageValue = 1},
+	{storage = Storage.FerumbrasAscension.FirstDoor, storageValue = 1},
+	{storage = Storage.FerumbrasAscension.TheShattererTimer, storageValue = 1},
+	{storage = Storage.FerumbrasAscension.TheLordOfTheLiceAccess, storageValue = 1},
+	{storage = Storage.FerumbrasAscension.TheShatterer, storageValue = 1},
+	{storage = Storage.FerumbrasAscension.ZamuloshTeleports, storageValue = 9},
+	{storage = Storage.FerumbrasAscension.Access, storageValue = 1},
 	{storage = Storage.InServiceofYalahar.Questline, storageValue = 51},
 	{storage = Storage.InServiceofYalahar.Mission01, storageValue = 6},
 	{storage = Storage.InServiceofYalahar.Mission02, storageValue = 8},
@@ -148,6 +170,17 @@ local questTable = {
 	{storage = Storage.ForgottenKnowledge.LloydKilled, storageValue = 1},
 	{storage = Storage.ForgottenKnowledge.LadyTenebrisKilled, storageValue = 1},
 	{storage = Storage.ForgottenKnowledge.AccessMachine, storageValue = 1},
+	{storage = Storage.ForgottenKnowledge.AccessLast, storageValue = 1},
+	{storage = Storage.ForgottenKnowledge.AccessDeath, storageValue = 1},
+	{storage = Storage.ForgottenKnowledge.AccessViolet, storageValue = 1},
+	{storage = Storage.ForgottenKnowledge.AccessEarth, storageValue = 1},
+	{storage = Storage.ForgottenKnowledge.AccessFire, storageValue = 1},
+	{storage = Storage.ForgottenKnowledge.AccessIce, storageValue = 1},
+	{storage = Storage.ForgottenKnowledge.AccessGolden, storageValue = 1},
+	{storage = Storage.ForgottenKnowledge.GoldenServantCounter, storageValue = 5},
+	{storage = Storage.ForgottenKnowledge.DiamondServantCounter, storageValue = 5},
+	{storage = Storage.ForgottenKnowledge.PlantCounter, storageValue = 4},
+	{storage = Storage.ForgottenKnowledge.BirdCounter, storageValue = 2},
 	{storage = Storage.BarbarianTest.Questline, storageValue = 8},
 	{storage = Storage.BarbarianTest.Mission01, storageValue = 3},
 	{storage = Storage.BarbarianTest.Mission02, storageValue = 3},
@@ -298,8 +331,14 @@ local questTable = {
 	{storage = Storage.DangerousDepths.Gnomes.Measurements, storageValue = 2},
 	{storage = Storage.DangerousDepths.Gnomes.Ordnance, storageValue = 3},
 	{storage = Storage.DangerousDepths.Gnomes.Charting, storageValue = 2},
+	{storage = Storage.DangerousDepths.Gnomes.Status, storageValue = 10},
+	{storage = Storage.DangerousDepths.Dwarves.Status, storageValue = 10},
+	{storage = Storage.DangerousDepths.Scouts.Status, storageValue = 10},
 	{storage = Storage.DangerousDepths.Scouts.Growth, storageValue = 2},
 	{storage = Storage.DangerousDepths.Scouts.Diremaw, storageValue = 2},
+	{storage = Storage.DangerousDepths.Access.LavaPumpWarzoneIV, storageValue = 1},
+	{storage = Storage.DangerousDepths.Access.LavaPumpWarzoneV, storageValue = 1},
+	{storage = Storage.DangerousDepths.Access.LavaPumpWarzoneVI, storageValue = 1},
 	{storage = Storage.ThreatenedDreams.Start, storageValue = 1},
 	{storage = Storage.ThreatenedDreams.TroubledMission01, storageValue = 4},
 	{storage = Storage.AdventurersGuild.GreatDragonHunt.WarriorSkeleton, storageValue = 1},
@@ -341,8 +380,19 @@ local questTable = {
 	{storage = Storage.Kilmaresh.Twelve.Boss, storageValue = 4},
 	{storage = Storage.Kilmaresh.Twelve.Bragrumol, storageValue = 1},
 	{storage = Storage.Kilmaresh.Twelve.Mozradek, storageValue = 1},
-	{storage = Storage.Kilmaresh.Twelve.Xogixath, storageValue = 1}
+	{storage = Storage.Kilmaresh.Twelve.Xogixath, storageValue = 1},
+	{storage = Storage.LiquidBlackQuest.Visitor, storageValue = 5},
+	{storage = Storage.TheSecretLibrary.HighDry, storageValue = 2},
+	{storage = Storage.TheSecretLibrary.Mota, storageValue = 11},
+	{storage = Storage.TheSecretLibrary.Peacock, storageValue = 2},
+	{storage = Storage.WhiteRavenMonastery.Door, storageValue = 1},
+	{storage = Storage.WhiteRavenMonastery.Diary, storageValue = 2},
+	{storage = Storage.WhiteRavenMonastery.QuestLog, storageValue = 1}, 
+	{storage = Storage.WhiteRavenMonastery.Passage, storageValue = 1},
+	{storage = Storage.GraveDanger.Questline, storageValue = 1},
+	{storage = Storage.GraveDanger.CobraBastion.Questline, storageValue = 1}
 }
+
 
 local function playerFreeQuestStart(playerId, index)
 	local player = Player(playerId)
@@ -369,6 +419,7 @@ end
 local freeQuests = CreatureEvent("FreeQuests")
 
 function freeQuests.onLogin(player)
+	Game.setStorageValue(GlobalStorage.FerumbrasAscendant.Elements.Done, 4)
 	if not configManager.getBoolean(configKeys.TOGGLE_FREE_QUEST) or
 	player:getStorageValue(Storage.FreeQuests) == stage then
 		return true

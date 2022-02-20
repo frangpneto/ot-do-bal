@@ -2289,6 +2289,7 @@ GlobalStorage = {
 		ZamuloshSummon = 60030,
 		FerumbrasEssence = 60031,
 		DesperateSoul = 60032,
+		FlowerPuzzleTimer = 60066,
 		Crystals = {
 			Crystal1 = 60040,
 			Crystal2 = 60041,
