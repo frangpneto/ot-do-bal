@@ -16,7 +16,7 @@ function mission9TheDeepestCatacombTeleport.onStepIn(creature, item, position, f
 		return true
 	end
 
-	if item.uid == 12129 then
+	if item.uid == 9257 then
 		if player:getStorageValue(Storage.TheApeCity.Questline) >= 17 then
 			player:teleportTo(Position(32749, 32536, 10))
 			position:sendMagicEffect(CONST_ME_TELEPORT)
@@ -25,7 +25,7 @@ function mission9TheDeepestCatacombTeleport.onStepIn(creature, item, position, f
 			player:teleportTo(fromPosition, true)
 			player:sendTextMessage(MESSAGE_EVENT_ADVANCE, "You don't have access to this area.")
 		end
-	elseif item.uid == 12130 then
+	elseif item.uid == 9258 then
 		for i = 1, #config.amphoraPositions do
 			local amphoraItem = Tile(config.amphoraPositions[i]):getItemById(config.brokenAmphoraId)
 			if not amphoraItem then

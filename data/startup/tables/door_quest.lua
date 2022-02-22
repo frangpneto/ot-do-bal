@@ -672,6 +672,14 @@ QuestDoorAction = {
 			{x = 33376, y = 31335, z = 3}
 		}
 	},
+	-- Porta Drume
+	[Storage.TheOrderOfTheLion.Door] = {
+		itemId = false,
+		itemPos = {
+			{x = 32429, y = 32461, z = 7},
+			{x = 32430, y = 32461, z = 8},
+		}
+	},
 	-- The Rookie Guard Quest - Mission 07: Attack!
 	-- The library vault door
 	[Storage.TheRookieGuard.LibraryDoor] = {

@@ -1738,6 +1738,7 @@ Storage = {
 	TheOrderOfTheLion = {
 		-- Reserved storage 52360-52395 (TheRookieGuard)
 		-- Reserved storage 52396-52410 (TheOrderOfTheLion)
+		Door = 52400,
 		Drume = {
 			Commander = 52396, -- Global
 			TotalLionCommanders = 52397, -- Global

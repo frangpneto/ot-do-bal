@@ -390,7 +390,26 @@ local questTable = {
 	{storage = Storage.WhiteRavenMonastery.QuestLog, storageValue = 1}, 
 	{storage = Storage.WhiteRavenMonastery.Passage, storageValue = 1},
 	{storage = Storage.GraveDanger.Questline, storageValue = 1},
-	{storage = Storage.GraveDanger.CobraBastion.Questline, storageValue = 1}
+	{storage = Storage.GraveDanger.CobraBastion.Questline, storageValue = 1},
+	{storage = Storage.TheApeCity.Questline, storageValue = 18},
+	{storage = Storage.TheApeCity.SnakeDestroyer, storageValue = 1},
+	{storage = Storage.TheApeCity.Casks, storageValue = 3},
+	{storage = Storage.TheApeCity.ParchmentDecyphering, storageValue = 1},
+	{storage = Storage.TheApeCity.Started, storageValue = 1},
+	{storage = Storage.TheApeCity.DworcDoor, storageValue = 1},
+	{storage = Storage.TheApeCity.ChorDoor, storageValue = 1},
+	{storage = Storage.TheApeCity.FibulaDoor, storageValue = 1},
+	{storage = Storage.TheApeCity.FibulaDoor, storageValue = 1},
+	{storage = Storage.TheApeCity.CasksDoor, storageValue = 1},
+	{storage = Storage.TheApeCity.HolyApeHair, storageValue = 1},
+	{storage = Storage.TheApeCity.ShamanOutfit, storageValue = 1},
+	{storage = Storage.LionsRock.GetLionsMane, storageValue = 1},
+	{storage = Storage.LionsRock.GetHolyWater, storageValue = 1},
+	{storage = Storage.LionsRock.Questline, storageValue = 11},
+	{storage = Storage.TheOrderOfTheLion.Door, storageValue = 1},
+	{storage = Storage.PitsOfInferno.ShortcutHubDoor, storageValue = 1},
+	{storage = Storage.PitsOfInferno.ShortcutLeverDoor, storageValue = 1},
+	{storage = Storage.PitsOfInferno.ThronePumin, storageValue = 1}
 }
 
 
