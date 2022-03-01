@@ -93,7 +93,8 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -5}
+	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -5},
+	{name ="malofur ultimate", interval = 15000, chance = 30, target = false}
 }
 
 monster.defenses = {

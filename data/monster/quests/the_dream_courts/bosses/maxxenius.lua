@@ -66,15 +66,15 @@ monster.loot = {
 	{name = "Platinum Coin", chance = 100000, maxCount = 5},
 	{name = "Mysterious Remains", chance = 100000},
 	{name = "Piggy Bank", chance = 100000},
-	{name = "Brain in a Jar", chance = 100000},
-	{name = "Maxxenius Head", chance = 100000},
+	{name = "Brain in a Jar", chance = 5000},
+	{name = "Maxxenius Head", chance = 5000},
 	{name = "Silver Token", chance = 100000, maxCount = 3},
 	{name = "Energy Bar", chance = 100000},
-	{name = "Crystal Coin", chance = 13790},
+	{name = "Crystal Coin", chance = 7000},
 	{name = "Gold Ingot", chance = 17240},
 	{name = "Bullseye Potion", chance = 24114, maxCount = 10},
 	{name = "Mastermind Potion", chance = 17240, maxCount = 10},
-	{name = "Royal Star", chance = 100000, maxCount = 100},
+	{name = "Royal Star", chance = 50000, maxCount = 100},
 	{name = "Supreme Health Potion", chance = 41380, maxCount = 20},
 	{name = "Ultimate Spirit Potion", chance = 48280, maxCount = 60},
 	{name = "Ultimate Mana Potion", chance = 68970, maxCount = 14},
@@ -84,14 +84,14 @@ monster.loot = {
 	{id = 281, chance = 28540},
 	{name = "Pomegranate", chance = 24140},
 	{name = "Chaos Mace", chance = 6900},
-	{id = 23528, chance = 17240},
+	{id = 23528, chance = 17240}, -- collar of red plasma
 	{id = 23543, chance = 13790}, -- Collar of green plasma
 	{name = "Green Gem", chance = 31030},
 	{name = "Yellow Gem", chance = 31030},
 	{name = "Violet Gem", chance = 6900},
 	{name = "Blue Gem", chance = 10340},
 	{name = "Huge Chunk of Crude Iron", chance = 17240},
-	{id = 23529, chance = 3450},
+	{id = 23529, chance = 3450}, -- ring of blue plasma
 	{name = "Skull Staff", chance = 13790},
 	{name = "Energized Limb", chance = 3450},
 	{name = "Purple Tendril Lantern", chance = 1500}
@@ -101,6 +101,10 @@ monster.attacks = {
 	{name ="melee", interval = 2000, chance = 100, minDamage = 0, maxDamage = -1000},
 	{name ="energy beam", interval = 2000, chance = 10, minDamage = -500, maxDamage = -1200, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYAREA, target = false},
 	{name ="energy wave", interval = 2000, chance = 10, minDamage = -500, maxDamage = -1200, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYAREA, target = false}
+}
+
+monster.reflects = {
+	{type = COMBAT_ENERGYDAMAGE, percent = 600}
 }
 
 monster.defenses = {
