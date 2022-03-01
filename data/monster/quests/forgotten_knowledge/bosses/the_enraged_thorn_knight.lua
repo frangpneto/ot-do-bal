@@ -20,6 +20,10 @@ monster.corpse = 111
 monster.speed = 350
 monster.manaCost = 0
 
+monster.heals = {
+	{type = COMBAT_DEATHDAMAGE , percent = 1000}
+}
+
 monster.changeTarget = {
 	interval = 5000,
 	chance = 0

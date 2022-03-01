@@ -110,6 +110,10 @@ monster.defenses = {
 	{name ="combat", interval = 2000, chance = 30, type = COMBAT_HEALING, minDamage = 150, maxDamage = 200, effect = CONST_ME_MAGIC_BLUE, target = false}
 }
 
+monster.heals = {
+	{type = COMBAT_FIREDAMAGE , percent = 100}
+}
+
 monster.reflects = {
 	{type = COMBAT_FIREDAMAGE, percent = 133}
 }
