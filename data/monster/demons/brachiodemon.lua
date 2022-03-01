@@ -80,26 +80,26 @@ monster.voices = {
 
 monster.loot = {
 	{name = "crystal coin", chance = 70540},
-	{name = "platinum coin", chance = 90540, maxCount = 32},
+	-- {name = "platinum coin", chance = 90540, maxCount = 32},
 	{name = "ultimate health potion", chance = 32220, maxCount = 7},
-	{id = 33936, chance = 35560}, -- Hand
-	{name = "skull staff", chance = 65560},
-	{name = "epee", chance = 75560},
-	{name = "crystal mace", chance = 25560},
-	{name = "noble axe", chance = 8560},
-	{name = "spellbook of mind control", chance = 9000},
-	{id = 33937, chance = 7500}, -- Head
-	{name = "fire axe", chance = 13500},
-	{name = "royal helmet", chance = 15500},
-	{name = "mastermind shield", chance = 9500},
-	{name = "assassin dagger", chance = 8500},
-	{name = "butcher's axe", chance = 7500},
-	{name = "jade hammer", chance = 6500},
-	{name = "crystalline sword", chance = 5500},
-	{name = "alloy legs", chance = 4500},
-	{name = "metal bat", chance = 3500},
-	{id = 23531, chance = 8920}, -- Ring of green plasma
-	{id = 34025, chance = 1550}, -- Diabolic skull
+	{id = 33936, chance = 4000}, -- Hand
+	{name = "skull staff", chance = 1200},
+	{name = "epee", chance = 5400},
+	{name = "crystal mace", chance = 2800},
+	{name = "noble axe", chance = 1710},
+	{name = "spellbook of mind control", chance = 1000},
+	{id = 33937, chance = 4000}, -- Head
+	{name = "fire axe", chance = 780},
+	{name = "royal helmet", chance = 620},
+	{name = "mastermind shield", chance = 470},
+	{name = "assassin dagger", chance = 1090},
+	{name = "butcher's axe", chance = 780},
+	{name = "jade hammer", chance = 470},
+	{name = "crystalline sword", chance = 470},
+	{name = "alloy legs", chance = 470},
+	{name = "metal bat", chance = 470},
+	{id = 23531, chance = 620}, -- Ring of green plasma
+	{id = 34025, chance = 160}, -- Diabolic skull
 	{id = 34109, chance = 25} -- Bag you desire
 }
 

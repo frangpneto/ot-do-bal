@@ -79,20 +79,20 @@ monster.voices = {
 }
 
 monster.loot = {
-	{name = "crystal coin", chance = 70540},
-	{name = "ultimate health potion", chance = 32220, maxCount = 9},
-	{name = "gold ingot", chance = 65560},
-	{name = "terra legs", chance = 25560},
-	{name = "violet gem", chance = 60000},
-	{id = 33982, chance = 35560}, -- Crawler's essence
-	{name = "green gem", chance = 70000},
-	{name = "blue gem", chance = 55000},
-	{name = "hammer of wrath", chance = 13500},
-	{name = "ruthless axe", chance = 17500},
-	{name = "nightmare blade", chance = 9500},
-	{name = "twiceslicer", chance = 7500},
-	{name = "crystal crossbow", chance = 6500},
-	{name = "crystalline sword", chance = 7500},
+	{name = "crystal coin", chance = 49000},
+	{name = "ultimate health potion", chance = 7000, maxCount = 9},
+	{name = "gold ingot", chance = 9000},
+	{name = "terra legs", chance = 400},
+	{name = "violet gem", chance = 400},
+	{id = 33982, chance = 870}, -- Crawler's essence
+	{name = "green gem", chance = 710},
+	{name = "blue gem", chance = 1750},
+	{name = "hammer of wrath", chance = 440},
+	{name = "ruthless axe", chance = 590},
+	{name = "nightmare blade", chance = 870},
+	{name = "twiceslicer", chance = 360},
+	{name = "crystal crossbow", chance = 710},
+	{name = "crystalline sword", chance = 440},
 	{id = 34109, chance = 25} -- Bag you desire
 }
 
