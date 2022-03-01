@@ -94,7 +94,7 @@ monster.loot = {
 	{name = "warrior's axe", chance = 17920},
 	{id = 34139, chance = 11560}, -- Infernal hearth
 	{id = 34146, chance = 7560}, -- Infernal robe
-	{id = 34109, chance = 50} -- Bag you desire
+	{id = 34109, chance = 25} -- Bag you desire
 }
 
 monster.attacks = {

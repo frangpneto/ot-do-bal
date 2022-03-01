@@ -92,7 +92,7 @@ monster.loot = {
 	{name = "wood cape", chance = 2500},
 	{name = "rubber cap", chance = 1500},
 	{name = "stone skin amulet", chance = 2000},
-	{id = 34109, chance = 50} -- Bag you desire
+	{id = 34109, chance = 25} -- Bag you desire
 }
 
 monster.attacks = {

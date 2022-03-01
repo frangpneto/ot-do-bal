@@ -100,7 +100,7 @@ monster.loot = {
 	{name = "metal bat", chance = 3500},
 	{id = 23531, chance = 8920}, -- Ring of green plasma
 	{id = 34025, chance = 1550}, -- Diabolic skull
-	{id = 34109, chance = 50} -- Bag you desire
+	{id = 34109, chance = 25} -- Bag you desire
 }
 
 monster.attacks = {

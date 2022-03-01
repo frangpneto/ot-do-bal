@@ -92,7 +92,7 @@ monster.loot = {
 	{id = 23542, chance = 28920},
 	{id = 34141, chance = 12920},
 	{name = "crystal crossbow", chance = 1920},
-	{id = 34109, chance = 50}
+	{id = 34109, chance = 25}
 }
 
 monster.attacks = {

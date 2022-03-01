@@ -92,7 +92,7 @@ monster.loot = {
 	{name = "wand of defiance", chance = 10000, maxCount = 3},
 	{id = 33935, chance = 4500}, -- Crown
 	{id = 34023, chance = 850}, -- Brooch of embracement
-	{id = 34109, chance = 50} -- Bag you desire
+	{id = 34109, chance = 25} -- Bag you desire
 }
 
 monster.attacks = {

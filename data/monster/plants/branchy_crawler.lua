@@ -93,7 +93,7 @@ monster.loot = {
 	{name = "twiceslicer", chance = 7500},
 	{name = "crystal crossbow", chance = 6500},
 	{name = "crystalline sword", chance = 7500},
-	{id = 34109, chance = 50} -- Bag you desire
+	{id = 34109, chance = 25} -- Bag you desire
 }
 
 monster.attacks = {

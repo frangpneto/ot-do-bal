@@ -93,7 +93,7 @@ monster.loot = {
 	{id = 23533, chance = 28920}, -- Ring of red plasma
 	{id = 34142, chance = 18920}, -- Distorted hearth
 	{id = 34149, chance = 11920}, -- Distorted robe
-	{id = 34109, chance = 50} -- Bag you desire
+	{id = 34109, chance = 25} -- Bag you desire
 }
 
 monster.attacks = {

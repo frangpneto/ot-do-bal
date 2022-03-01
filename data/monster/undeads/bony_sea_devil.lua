@@ -95,7 +95,7 @@ monster.loot = {
 	{id = 34014, chance = 14560}, -- Jaws
 	{name = "skullcracker armor", chance = 1680},
 	{name = "goblet of gloom", chance = 880},
-	{id = 34109, chance = 50} -- Bag you desire
+	{id = 34109, chance = 25} -- Bag you desire
 }
 
 monster.attacks = {
