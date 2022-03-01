@@ -60,7 +60,7 @@ monster.light = {
 monster.voices = {
 	interval = 5000,
 	chance = 10,
-	{text = "RAAAARGH! I'M MASHING YE TO DUST BOOM!", yell = false},
+	-- {text = "RAAAARGH! I'M MASHING YE TO DUST BOOM!", yell = false},
 	{text = "BOOOM!", yell = false},
 	{text = "BOOOOM!!!", yell = false},
 	{text = "BOOOOOM!!!", yell = false}
