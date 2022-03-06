@@ -78,12 +78,12 @@ monster.loot = {
 	{id = 16164, chance = 6263},
 	{id = 16155, chance = 2754},
 	{id = 16162, chance = 2754},
-	{name = "eldritch Warmace", chance = 5000}, --Itens Eldritch
-	{name = "eldritch shield", chance = 5000}, --Itens Eldritch
-	{name = "eldritch greataxe", chance = 5000}, --Itens Eldritch
-	{name = "eldritch cuirass", chance = 5000}, --Itens Eldritch
-	{name = "eldritch claymore", chance = 5000}, --Itens Eldritch
-	{name = "eldritch crystal", chance = 5000}, --Itens Eldritch
+	{name = "eldritch Warmace", chance = 1000}, --Itens Eldritch
+	{name = "eldritch shield", chance = 1000}, --Itens Eldritch
+	{name = "eldritch greataxe", chance = 1000}, --Itens Eldritch
+	{name = "eldritch cuirass", chance = 1000}, --Itens Eldritch
+	{name = "eldritch claymore", chance = 1000}, --Itens Eldritch
+	{name = "eldritch crystal", chance = 1000}, --Itens Eldritch
 }
 
 monster.attacks = {
