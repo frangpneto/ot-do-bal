@@ -8,7 +8,7 @@ function onAdvance(player, skill, oldlevel, newlevel)
         return true
     end
 
-    if newlevel >= 30  and player:getStorageValue(storage) ~= 10 then
+    if newlevel >= 20  and player:getStorageValue(storage) ~= 10 then
         player:setStorageValue(storage, 10)
         player:setBankBalance(player:getBankBalance() + 10000)
         player:addItem(crystal, 1)
