@@ -81,7 +81,7 @@ function spell.onCastSpell(creature, var)
 end
 
 spell:name("malofur ultimate")
-spell:words("###425")
+spell:words("###525")
 spell:isAggressive(true)
 spell:blockWalls(true)
 spell:needLearn(true)

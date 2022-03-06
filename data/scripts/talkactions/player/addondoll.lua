@@ -34,8 +34,9 @@ local outfits =
 	["demon"] = {542, 541}
 }
 local addon = TalkAction("!addon")
-function addon.onSay(player, words, param)
 
+function addon.onSay(player, words, param)
+	player:sendCancelMessage("carregando addons!")
 	local addondoll_id = 21435
 
 	if player:getItemCount(addondoll_id) > 0 then
@@ -58,3 +59,5 @@ function addon.onSay(player, words, param)
 
 	return true
 end
+
+addon:register()
