@@ -10,8 +10,8 @@ function onAdvance(player, skill, oldlevel, newlevel)
 
     if newlevel >= 20  and player:getStorageValue(storage) ~= 10 then
         player:setStorageValue(storage, 10)
-        player:setBankBalance(player:getBankBalance() + 10000)
-        player:addItem(crystal, 1)
+        player:setBankBalance(player:getBankBalance() + 20000)
+        player:addItem(crystal, 2)
         player:sendTextMessage(MESSAGE_STATUS_CONSOLE_ORANGE, "You receive 1 crystal coin in your bank.")
     elseif newlevel >= 60  and player:getStorageValue(storage2) ~= 10 then
         player:setStorageValue(storage2, 10)
