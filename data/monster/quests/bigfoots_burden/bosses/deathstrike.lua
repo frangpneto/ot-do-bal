@@ -38,7 +38,7 @@ monster.flags = {
 	hostile = true,
 	convinceable = false,
 	pushable = false,
-	rewardBoss = false,
+	rewardBoss = true,
 	illusionable = false,
 	canPushItems = true,
 	canPushCreatures = true,
@@ -74,14 +74,24 @@ monster.loot = {
 	{id = 16136, chance = 100000},
 	{id = 16163, chance = 12380},
 	{id = 16161, chance = 7430},
-	{id = 16164, chance = 11430}
+	{id = 16164, chance = 11430},
+	{name = "eldritch tome", chance = 5000}, --Itens Eldritch
+	{name = "eldritch rod", chance = 5000}, --Itens Eldritch
+	{name = "eldritch hood", chance = 5000}, --Itens Eldritch
+	{name = "eldritch folio", chance = 5000}, --Itens Eldritch
+	{name = "eldritch wand", chance = 5000}, --Itens Eldritch
+	{name = "eldritch cowl", chance = 5000}, --Itens Eldritch
+	{name = "eldritch crystal", chance = 5000}, --Itens Eldritch
 }
 
 monster.attacks = {
-	{name ="melee", interval = 1300, chance = 100, skill = 80, attack = 120},
 	{name ="speed", interval = 2000, chance = 20, speedChange = -400, range = 7, shootEffect = CONST_ANI_WHIRLWINDAXE, target = false, duration = 2500},
-	{name ="combat", interval = 2000, chance = 100, type = COMBAT_FIREDAMAGE, minDamage = -820, maxDamage = -950, range = 7, effect = CONST_ME_FIREAREA, target = false},
-	{name ="combat", interval = 1000, chance = 12, type = COMBAT_ENERGYDAMAGE, minDamage = -350, maxDamage = -800, range = 3, effect = CONST_ME_PURPLEENERGY, target = true}
+	{name ="combat", interval = 1000, chance = 12, type = COMBAT_ENERGYDAMAGE, minDamage = -350, maxDamage = -800, range = 3, effect = CONST_ME_PURPLEENERGY, target = true},
+	{name ="melee", interval = 2000, chance = 100, minDamage = -300, maxDamage = -1000},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_FIREDAMAGE, minDamage = -200, maxDamage = -1000, range = 3, length = 6, spread = 8, effect = CONST_ME_FIREAREA, target = false},
+	{name ="combat", interval = 2000, chance = 20, type = COMBAT_FIREDAMAGE, minDamage = -200, maxDamage = -1200, range = 3, length = 9, spread = 4, effect = CONST_ME_HITBYFIRE, target = false},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -135, maxDamage = -1200, radius = 2, effect = CONST_ME_EXPLOSIONAREA, target = false},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_PHYSICALDAMAGE, minDamage = -200, maxDamage = -1200, radius = 8, effect = CONST_ME_HITAREA, target = false}
 }
 
 monster.defenses = {
@@ -109,5 +119,11 @@ monster.immunities = {
 	{type = "invisible", condition = true},
 	{type = "bleed", condition = false}
 }
+
+mType.onAppear = function(monster, creature)
+	if monster:getType():isRewardBoss() then
+		monster:setReward(true)
+	end
+end
 
 mType:register(monster)

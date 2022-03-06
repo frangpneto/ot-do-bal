@@ -38,7 +38,7 @@ monster.flags = {
 	hostile = true,
 	convinceable = false,
 	pushable = false,
-	rewardBoss = false,
+	rewardBoss = true,
 	illusionable = false,
 	canPushItems = true,
 	canPushCreatures = false,
@@ -77,13 +77,19 @@ monster.loot = {
 	{id = 16160, chance = 6666},
 	{id = 16164, chance = 6263},
 	{id = 16155, chance = 2754},
-	{id = 16162, chance = 2754}
+	{id = 16162, chance = 2754},
+	{name = "eldritch Warmace", chance = 5000}, --Itens Eldritch
+	{name = "eldritch shield", chance = 5000}, --Itens Eldritch
+	{name = "eldritch greataxe", chance = 5000}, --Itens Eldritch
+	{name = "eldritch cuirass", chance = 5000}, --Itens Eldritch
+	{name = "eldritch claymore", chance = 5000}, --Itens Eldritch
+	{name = "eldritch crystal", chance = 5000}, --Itens Eldritch
 }
 
 monster.attacks = {
-	{name ="melee", interval = 3000, chance = 100, skill = 300, attack = 150},
+	{name ="melee", interval = 2000, chance = 100, skill = 300, attack = 150},
 	-- energy damage
-	{name ="condition", type = CONDITION_ENERGY, interval = 1000, chance = 10, minDamage = -800, maxDamage = -800, radius = 4, shootEffect = CONST_ANI_POISON, effect = CONST_ME_SMALLPLANTS, target = false},
+	{name ="condition", type = CONDITION_ENERGY, interval = 1000, chance = 10, minDamage = -800, maxDamage = -1600, radius = 4, shootEffect = CONST_ANI_POISON, effect = CONST_ME_SMALLPLANTS, target = false},
 	{name ="combat", interval = 2000, chance = 20, type = COMBAT_ENERGYDAMAGE, minDamage = -500, maxDamage = -1600, radius = 4, shootEffect = CONST_ANI_ENERGY, effect = CONST_ME_ENERGYHIT, target = false},
 	{name ="abyssador poison wave", interval = 1000, chance = 20, minDamage = -1000, maxDamage = -1800, target = false}
 }
