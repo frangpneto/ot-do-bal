@@ -36,11 +36,11 @@ local outfits =
 local addon = TalkAction("!addon")
 
 function addon.onSay(player, words, param)
-	player:sendCancelMessage("carregando addons!")
 	local addondoll_id = 21435
 
 	if player:getItemCount(addondoll_id) > 0 then
 		local word = outfits[string.lower(param)]
+		player:sendCancelMessage("Adicionando addon " .. word)
 		if param ~= "" and word then
 			if (not player:hasOutfit(word[1], 3) or not player:hasOutfit(word[2], 3)) and player:removeItem(addondoll_id, 1) then
 				player:getPosition():sendMagicEffect(CONST_ME_GIFT_WRAPS)
