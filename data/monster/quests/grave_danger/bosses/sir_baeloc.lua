@@ -66,6 +66,10 @@ monster.voices = {
 	chance = 10,
 }
 
+monster.heals = {
+	{type = COMBAT_DEATHDAMAGE , percent = 100}
+}
+
 monster.loot = {
 	{name = "platinum coin", minCount = 1, maxCount = 5, chance = 100000},
 	{name = "crystal coin", minCount = 0, maxCount = 2, chance = 50000},
