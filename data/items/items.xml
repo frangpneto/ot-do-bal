@@ -34706,8 +34706,8 @@
 		<attribute key="description" value="It holds some fragment of the power of the earth."/>
 		<attribute key="weight" value="210"/>
 	</item>
-	<item id="21435" article="a" name="black knight doll">
-		<attribute key="description" value="Awarded by TibiaLatina.Fandom.com.&#xA;My sad story is told by few living humans but many dead warriors"/>
+	<item id="21435" article="a" name="addon doll">
+		<attribute key="description" value="Item adquirido em evento, use-o digitando !add"/>
 		<attribute key="weight" value="1800"/>
 	</item>
 	<item id="21436" article="a" name="black knight doll">
