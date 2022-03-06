@@ -51,7 +51,7 @@ function addon.onSay(player, words, param)
 				player:sendCancelMessage("Voce ja tem este addon")
 			end
 		else
-			player:sendCancelMessage("Digite novamente, algo esta errado!")
+			player:sendCancelMessage("Digite novamente, algo esta errado! params: " .. param .. " word: " .. word)
 		end
 	else
 		player:sendCancelMessage("Voce nao tem addon doll!")
