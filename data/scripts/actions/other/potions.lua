@@ -216,6 +216,15 @@ local potions = {
 		level = 200,
 		flask = 284,
 		description = "Only knights of level 200 or above may drink this fluid."
+	},
+	[36725] = {
+		stamina = {
+			10800,
+			10800
+		},
+		level = 1,
+		flask = 284,
+		description = "Stamina recovery at 3 hours."
 	}
 }
 
@@ -246,7 +255,7 @@ function flaskPotion.onUse(player, item, fromPosition, target, toPosition, isHot
 		return true
 	end
 
-	if potion.health or potion.mana or potion.combat then
+	if potion.health or potion.mana or potion.combat or potion.stamina then
 		if potion.health then
 			doTargetCombatHealth(0, target, COMBAT_HEALING, potion.health[1], potion.health[2], CONST_ME_MAGIC_BLUE)
 		end
@@ -259,9 +268,14 @@ function flaskPotion.onUse(player, item, fromPosition, target, toPosition, isHot
 			potion.combat:execute(target, Variant(target:getId()))
 		end
 
+		if potion.stamina then
+			player:setStamina(10800)
+			player:removeItem(36725, 1)
+		end
+
 		player:addAchievementProgress('Potion Addict', 100000)
 		target:say("Aaaah...", MESSAGE_POTION)
-		player:addItem(potion.flask, 1)
+		--player:addItem(potion.flask, 1)
 		player:addCondition(exhaust)
 		player:setStorageValue(38412, player:getStorageValue(38412)+1)
 	end
