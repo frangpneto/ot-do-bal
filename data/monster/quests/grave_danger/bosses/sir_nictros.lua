@@ -63,6 +63,10 @@ monster.voices = {
 	chance = 10,
 }
 
+monster.heals = {
+	{type = COMBAT_DEATHDAMAGE , percent = 300}
+}
+
 monster.loot = {
 }
 
