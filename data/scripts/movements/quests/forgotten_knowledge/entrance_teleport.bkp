@@ -1,70 +1,70 @@
 local destination = {
-	[25047] = {
+	[27715] = {
 		newPos = Position(32807, 31657, 8),
 		storage = Storage.ForgottenKnowledge.AccessDeath,
 		effect = CONST_ME_MORTAREA
 	},
-	[25048] = {
+	[27716] = {
 		newPos = Position(32325, 32089,7),
 		storage = Storage.ForgottenKnowledge.AccessDeath,
 		effect = CONST_ME_MORTAREA
 	},
-	[25051] = {
+	[27719] = {
 		newPos = Position(32786, 32820, 13),
 		storage = Storage.ForgottenKnowledge.AccessViolet,
 		effect = CONST_ME_PURPLEENERGY
 	},
-	[25052] = {
+	[27720] = {
 		newPos = Position(32328, 32089,7),
 		storage = Storage.ForgottenKnowledge.AccessViolet,
 		effect = CONST_ME_PURPLEENERGY
 	},
-	[25049] = {
+	[27717] = {
 		newPos = Position(32637, 32256, 7),
 		storage = Storage.ForgottenKnowledge.AccessEarth,
 		effect = CONST_ME_SMALLPLANTS
 	},
-	[25050] = {
+	[27718] = {
 		newPos = Position(32331, 32089, 7),
 		storage = Storage.ForgottenKnowledge.AccessEarth,
 		effect = CONST_ME_SMALLPLANTS
 	},
-	[25053] = {
+	[27721] = {
 		newPos = Position(33341, 31168, 7),
 		storage = Storage.ForgottenKnowledge.AccessFire,
 		effect = CONST_ME_FIREAREA
 	},
-	[25054] = {
+	[27722] = {
 		newPos = Position(32334, 32089,7),
 		storage = Storage.ForgottenKnowledge.AccessFire,
 		effect = CONST_ME_FIREAREA
 	},
-	[25057] = {
+	[27725] = {
 		newPos = Position(32207, 31036, 10),
 		storage = Storage.ForgottenKnowledge.AccessIce,
 		effect = CONST_ME_ICEATTACK
 	},
-	[25058] = {
+	[27726] = {
 		newPos = Position(32337, 32089,7),
 		storage = Storage.ForgottenKnowledge.AccessIce,
 		effect = CONST_ME_ICEATTACK
 	},
-	[25055] = {
+	[27723] = {
 		newPos = Position(32780, 32686, 14),
 		storage = Storage.ForgottenKnowledge.AccessGolden,
 		effect = CONST_ME_YELLOWENERGY
 	},
-	[25056] = {
+	[27724] = {
 		newPos = Position(32340, 32089, 7),
 		storage = Storage.ForgottenKnowledge.AccessGolden,
 		effect = CONST_ME_YELLOWENERGY
 	},
-	[10840] = {
+	[11796] = {
 		newPos = Position(32907, 32848, 13),
 		storage = Storage.ForgottenKnowledge.AccessLast,
 		effect = CONST_ME_ENERGYHIT
 	},
-	[10842] = {
+	[11798] = {
 		newPos = Position(32332, 32092, 7),
 		storage = Storage.ForgottenKnowledge.AccessLast,
 	effect = CONST_ME_ENERGYHIT}

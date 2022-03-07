@@ -49,6 +49,16 @@ monster.flags = {
 	canWalkOnPoison = true
 }
 
+monster.summon = {
+	maxSummons = 4,
+	summons = {
+		{name = "Soul Scorge", chance = 5000, interval = 2000, count = 4},
+	}
+}
+monster.reflects = {
+	{type = COMBAT_DEATHDAMAGE, percent = 60}
+}
+
 monster.light = {
 	level = 0,
 	color = 0

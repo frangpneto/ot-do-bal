@@ -280,6 +280,12 @@ TeleportUnique = {
 		destination = {x = 32480, y = 31905, z = 2},
 		effect = CONST_ME_TELEPORT
 	},
+	[38023] = {
+		itemId = 1949,
+		itemPos = {x = 33456, y = 31464, z = 13},
+		destination = {x = 32355, y = 32162, z = 11},
+		effect = CONST_ME_TELEPORT
+	},
 
 	-- Others teleports
 	-- Water elemental cave (Trapwood)
