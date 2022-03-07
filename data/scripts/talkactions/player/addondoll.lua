@@ -40,8 +40,8 @@ function addon.onSay(player, words, param)
 
 	if player:getItemCount(addondoll_id) > 0 then
 		local word = outfits[string.lower(param)]
-		player:sendTextMessage(MESSAGE_INFO_DESCR, "Adicionando addon " .. word)
 		if param ~= "" and word then
+			player:sendTextMessage(MESSAGE_INFO_DESCR, "Adicionando addon " .. word)
 			if (not player:hasOutfit(word[1], 3) or not player:hasOutfit(word[2], 3)) and player:removeItem(addondoll_id, 1) then
 				player:getPosition():sendMagicEffect(CONST_ME_GIFT_WRAPS)
 				player:addOutfitAddon(word[1], 3)
