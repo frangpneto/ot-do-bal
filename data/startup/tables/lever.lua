@@ -168,5 +168,9 @@ LeverUnique = {
         [30034] = {
         	itemId = 8911,
         	itemPos = {x = 33515, y = 31444, z = 13}
+        },
+        [30035] = {
+                itemId = 8911,
+                itemPos = {x = 33484, y = 31546, z = 13}
         }
 }
