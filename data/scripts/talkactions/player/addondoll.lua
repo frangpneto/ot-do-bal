@@ -39,9 +39,11 @@ function addon.onSay(player, words, param)
 	local addondoll_id = 21435
 
 	if player:getItemCount(addondoll_id) > 0 then
-		local word = outfits[string.lower(param)]
+		local word = outfits[param]
 		if param ~= "" and word then
-			player:sendTextMessage(MESSAGE_INFO_DESCR, "Adicionando addon " .. word)
+			player:say("Adicionando " .. param)
+			print("Adicionando " .. param .. " IDs " .. word[1])
+			print("Adicionando " .. param .. " IDs " .. word[0])
 			if (not player:hasOutfit(word[1], 3) or not player:hasOutfit(word[2], 3)) and player:removeItem(addondoll_id, 1) then
 				player:getPosition():sendMagicEffect(CONST_ME_GIFT_WRAPS)
 				player:addOutfitAddon(word[1], 3)
@@ -51,7 +53,7 @@ function addon.onSay(player, words, param)
 				player:sendCancelMessage("Voce ja tem este addon")
 			end
 		else
-			player:sendCancelMessage("Digite novamente, algo esta errado! params: " .. param .. " word: " .. word)
+			player:sendCancelMessage("Digite qual addon vc quer!")
 		end
 	else
 		player:sendCancelMessage("Voce nao tem addon doll!")
