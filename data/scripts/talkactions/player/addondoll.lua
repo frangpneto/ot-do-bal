@@ -43,7 +43,6 @@ function addon.onSay(player, words, param)
 		if param ~= "" and word then
 			player:say("Adicionando " .. param)
 			print("Adicionando " .. param .. " IDs " .. word[1])
-			print("Adicionando " .. param .. " IDs " .. word[0])
 			if (not player:hasOutfit(word[1], 3) or not player:hasOutfit(word[2], 3)) and player:removeItem(addondoll_id, 1) then
 				player:getPosition():sendMagicEffect(CONST_ME_GIFT_WRAPS)
 				player:addOutfitAddon(word[1], 3)
