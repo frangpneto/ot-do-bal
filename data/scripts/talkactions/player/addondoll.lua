@@ -59,4 +59,5 @@ function addon.onSay(player, words, param)
 	return true
 end
 
+addon:separator(" ")
 addon:register()
