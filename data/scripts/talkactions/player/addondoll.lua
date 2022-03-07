@@ -37,27 +37,24 @@ local addon = TalkAction("!addon")
 
 function addon.onSay(player, words, param)
 	local addondoll_id = 21435
-	local word = outfits[param]
-	player:say('Add ' .. param .. " do word: " .. word[1])
-	-- if player:getItemCount(addondoll_id) > 0 then
-	-- 	local word = outfits[param]
-	-- 	if param ~= "" and word then
-	-- 		player:say("Adicionando " .. param)
-	-- 		print("Adicionando " .. param .. " IDs " .. word[1])
-	-- 		if (not player:hasOutfit(word[1], 3) or not player:hasOutfit(word[2], 3)) and player:removeItem(addondoll_id, 1) then
-	-- 			player:getPosition():sendMagicEffect(CONST_ME_GIFT_WRAPS)
-	-- 			player:addOutfitAddon(word[1], 3)
-	-- 			player:addOutfitAddon(word[2], 3)
-	-- 			player:sendTextMessage(MESSAGE_INFO_DESCR, "Seu Addon full foi adicionado!")
-	-- 		else
-	-- 			player:sendCancelMessage("Voce ja tem este addon")
-	-- 		end
-	-- 	else
-	-- 		player:sendCancelMessage("Digite qual addon vc quer!")
-	-- 	end
-	-- else
-	-- 	player:sendCancelMessage("Voce nao tem addon doll!")
-	-- end
+
+	if player:getItemCount(addondoll_id) > 0 then
+		local word = outfits[string.lower(param)]
+		if param ~= "" and word then
+			if (not player:hasOutfit(word[1], 3) or not player:hasOutfit(word[2], 3)) and player:removeItem(addondoll_id, 1) then
+				player:getPosition():sendMagicEffect(CONST_ME_GIFT_WRAPS)
+				player:addOutfitAddon(word[1], 3)
+				player:addOutfitAddon(word[2], 3)
+				player:sendTextMessage(MESSAGE_INFO_DESCR, "Seu Addon full foi adicionado!")
+			else
+				player:sendCancelMessage("Voce ja tem este addon")
+			end
+		else
+			player:sendCancelMessage("Digite novamente, algo esta errado!")
+		end
+	else
+		player:sendCancelMessage("Voce nao tem addon doll! para adicionar o paramentro" .. param)
+	end
 
 	return true
 end
