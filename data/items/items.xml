@@ -32171,6 +32171,7 @@
 		<attribute key="weight" value="6200"/>
 	</item>
 	<item id="19250" article="a" name="reward chest">
+		<attribute key="type" value="rewardchest" />
 		<attribute key="description" value="This chest contains your rewards earned in battles."/>
 		<attribute key="moveable" value="0"/>
 		<attribute key="allowpickUpAble" value="0"/>
@@ -47379,7 +47380,6 @@
 	<item fromid="30446" toid="30447" article="a" name="veined stone"/>
 	<item fromid="30448" toid="30449" article="a" name="ruddy obelisk"/>
 	<item fromid="30450" toid="30451" article="a" name="pile of ruddy ashlars"/>
-	<item fromid="30452" toid="30453" article="an" name="ancient sepulchre"/>
 	<item fromid="30454" toid="30469" article="a" name="sphinx statue"/>
 	<item id="30613" article="a" name="cobra statue"/>
 	<item fromid="30614" toid="30615" article="a" name="unknown item"/>
@@ -47604,6 +47604,24 @@
 	<item id="31168" article="a" name="trapdoor">
 		<attribute key="floorchange" value="down"/>
 	</item>
+        <item id="20470" article="a" name="trapdoor">
+                <attribute key="floorchange" value="down"/>
+	</item>
+        <item id="20471" article="a" name="trapdoor">
+                <attribute key="floorchange" value="down"/>
+	</item>
+        <item id="20472" article="a" name="trapdoor">
+                <attribute key="floorchange" value="down"/>
+	</item>
+        <item id="20473" article="a" name="trapdoor">
+                <attribute key="floorchange" value="down"/>
+        </item>
+	<item id="30452" article="a" name="ancient sepulchre">
+                <attribute key="floorchange" value="down"/>
+	</item>	
+        <item id="30453" article="a" name="ancient sepulchre">
+                <attribute key="floorchange" value="down"/>
+        </item>	
 	<item id="31170" name="unknown item"/>
 	<item fromid="31171" toid="31182" name="shallow water">
 		<!-- summer update 2019 -->

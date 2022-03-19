@@ -1714,6 +1714,11 @@ Storage = {
 	GraveDanger = {
 		-- Reserved storage from 52310 - 52339
 		Questline = 52310,
+		DukeTimer = 52313,
+		LordTimer = 52314,
+		SirsTimer = 52315,
+		countTimer = 52316,
+		kingTimer = 52317,
 		CobraBastion = {
 			Questline = 52311,
 			ScarlettTimer = 52312

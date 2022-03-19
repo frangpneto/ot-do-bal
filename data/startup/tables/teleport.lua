@@ -280,7 +280,138 @@ TeleportUnique = {
 		destination = {x = 32480, y = 31905, z = 2},
 		effect = CONST_ME_TELEPORT
 	},
-
+	[38023] = {
+		itemId = 1949,
+		itemPos = {x = 33456, y = 31464, z = 13},
+		destination = {x = 32355, y = 32162, z = 11},
+		effect = CONST_ME_TELEPORT
+	},
+        [38024] = {
+                itemId = 1949,
+                itemPos = {x = 33569, y = 31544, z = 10},
+                destination = {x = 33621, y = 31432, z = 10},
+                effect = CONST_ME_TELEPORT
+        },
+        [38025] = {
+                itemId = 33004,
+                itemPos = {x = 33615, y = 31422, z = 10},
+                destination = {x = 33988, y = 31001, z = 10},
+                effect = CONST_ME_TELEPORT
+        },
+        [38026] = {
+                itemId = 32979,
+                itemPos = {x = 33618, y = 31422, z = 10},
+                destination = {x = 33948, y = 31029, z = 11},
+                effect = CONST_ME_TELEPORT
+        },
+        [38027] = {
+                itemId = 33005,
+                itemPos = {x = 33621, y = 31422, z = 10},
+                destination = {x = 33879, y = 31002, z = 8},
+                effect = CONST_ME_TELEPORT
+        },
+        [38028] = {
+                itemId = 33007,
+                itemPos = {x = 33624, y = 31422, z = 10},
+                destination = {x = 33859, y = 31832, z = 3},
+                effect = CONST_ME_TELEPORT
+        },
+        [38029] = {
+                itemId = 33006,
+                itemPos = {x = 33627, y = 31422, z = 10},
+                destination = {x = 33887, y = 31188, z = 10},
+                effect = CONST_ME_TELEPORT
+        },
+        [38030] = {
+                itemId = 34111,
+                itemPos = {x = 33859, y = 31834, z = 3},
+                destination = {x = 33851, y = 31833, z = 3},
+                effect = CONST_ME_TELEPORT
+        },
+        [38031] = {
+                itemId = 1949,
+                itemPos = {x = 33859, y = 31831, z = 3},
+                destination = {x = 33624, y = 31420, z = 10},
+                effect = CONST_ME_TELEPORT
+        },
+        [38032] = {
+                itemId = 33007,
+                itemPos = {x = 33888, y = 31874, z = 3},
+                destination = {x = 33880, y = 31872, z = 4},
+                effect = CONST_ME_TELEPORT
+        },
+        [38033] = {
+                itemId = 1949,
+                itemPos = {x = 33880, y = 31873, z = 4},
+                destination = {x = 33888, y = 31873, z = 3},
+                effect = CONST_ME_TELEPORT
+        },
+        [38034] = {
+                itemId = 33007,
+                itemPos = {x = 33828, y = 31881, z = 4},
+                destination = {x = 33835, y = 31866, z = 5},
+                effect = CONST_ME_TELEPORT
+        },
+        [38035] = {
+                itemId = 1949,
+                itemPos = {x = 33835, y = 31867, z = 5},
+                destination = {x = 33828, y = 31880, z = 4},
+                effect = CONST_ME_TELEPORT
+        },
+        [38036] = {
+                itemId = 33007,
+                itemPos = {x = 33856, y = 31885, z = 5},
+                destination = {x = 33856, y = 31880, z = 6},
+                effect = CONST_ME_TELEPORT
+        },
+        [38037] = {
+                itemId = 34111,
+                itemPos = {x = 33868, y = 31866, z = 6},
+                destination = {x = 33857, y = 31885, z = 5},
+                effect = CONST_ME_TELEPORT
+        },
+        [38038] = {
+                itemId = 1949,
+                itemPos = {x = 32480, y = 32601, z = 15},
+                destination = {x = 32720, y = 32720, z = 10},
+                effect = CONST_ME_TELEPORT
+        },
+        [38039] = {
+                itemId = 1949,
+                itemPos = {x = 32662, y = 32713, z = 13},
+                destination = {x = 32747, y = 32771, z = 10},
+                effect = CONST_ME_TELEPORT
+        },
+        [38040] = {
+                itemId = 1949,
+                itemPos = {x = 32660, y = 32736, z = 12},
+                destination = {x = 32747, y = 32746, z = 10},
+                effect = CONST_ME_TELEPORT
+        },
+        [38041] = {
+                itemId = 1949,
+                itemPos = {x = 32464, y = 32654, z = 12},
+                destination = {x = 32723, y = 32747, z = 10},
+                effect = CONST_ME_TELEPORT
+        },
+        [38042] = {
+                itemId = 23726,
+                itemPos = {x = 32174, y = 31916, z = 8},
+                destination = {x = 33490, y = 31548, z = 13},
+                effect = CONST_ME_TELEPORT
+        },
+        [38043] = {
+                itemId = 22761,
+                itemPos = {x = 33443, y = 31555, z = 13},
+                destination = {x = 33490, y = 31545, z = 13},
+                effect = CONST_ME_TELEPORT
+        },
+        [38044] = {
+                itemId = 1949,
+                itemPos = {x = 33621, y = 31434, z = 10},
+                destination = {x = 33573, y = 31543, z = 10},
+                effect = CONST_ME_TELEPORT
+        },
 	-- Others teleports
 	-- Water elemental cave (Trapwood)
 	[39001] = {

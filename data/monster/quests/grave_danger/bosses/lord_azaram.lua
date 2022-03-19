@@ -26,7 +26,12 @@ monster.changeTarget = {
 }
 
 monster.strategiesTarget = {
-	nearest = 100,
+	nearest = 100, 
+}
+
+monster.reflects = {
+	{type = COMBAT_EARTHDAMAGE, percent = 260}
+
 }
 
 monster.flags = {
@@ -55,9 +60,9 @@ monster.light = {
 }
 
 monster.summon = {
-	maxSummons = 3,
+	maxSummons = 5,
 	summons = {
-		{name = "Condensed Sins", chance = 50, interval = 2000, count = 3}
+		{name = "Condensed Sins", chance = 5000, interval = 2000, count = 5}
 	}
 }
 
@@ -98,9 +103,10 @@ monster.loot = {
 }
 
 monster.attacks = {
-	{name ="melee", interval = 2000, chance = 100, minDamage = -200, maxDamage = -600},
+	{name ="melee", interval = 2000, chance = 100, minDamage = -400, maxDamage = -900},
 	{name ="combat", interval = 2000, chance = 25, type = COMBAT_PHYSICALDAMAGE, minDamage = -400, maxDamage = -1000, length = 7, spread = 3, effect = CONST_ME_STONES, target = false},
-	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -400, maxDamage = -1000, length = 7, spread = 3, effect = CONST_ME_POISONAREA, target = false}
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -400, maxDamage = -1000, length = 7, spread = 3, effect = CONST_ME_POISONAREA, target = false},
+	{name ="combat", interval = 2000, chance = 15, type = COMBAT_EARTHDAMAGE, minDamage = -400, maxDamage = -1000, length = 7, spread = 7, effect = CONST_ME_POISONAREA, target = false}
 }
 
 monster.defenses = {
