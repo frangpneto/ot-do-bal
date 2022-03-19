@@ -22,8 +22,19 @@ local playerLogin = CreatureEvent("PlayerLogin")
 
 function playerLogin.onLogin(player)
 	local items = {
-		{3003, 1},
-		{3031, 3}
+		{3043, 2},
+		{645, 1},
+		{3391, 1},
+		{10386, 1},
+		{3567, 1},
+		{3419, 1},
+		{3277, 1},
+		{9596, 1},
+		{3318, 1},
+		{7387, 1},
+		{7408, 1},
+		{3074, 1},
+		{3066, 1}
 	}
 	if player:getLastLoginSaved() == 0 then
 		player:sendOutfitWindow()
@@ -34,6 +45,7 @@ function playerLogin.onLogin(player)
 			end
 		end
 		player:addItem(2920, 1, true, 1, CONST_SLOT_AMMO)
+		player:setTown(8)
 		db.query('UPDATE `players` SET `istutorial` = 0 where `id`='..player:getGuid())
 	else
 		player:sendTextMessage(MESSAGE_STATUS, "Welcome to " .. SERVER_NAME .. "!")
